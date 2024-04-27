@@ -17,7 +17,7 @@ import com.example.demo.service.Daoservice;
 @RestController
 public class empcontroller {
 	
-	
+	System.out.println("Hello");
 	Daoservice ds;
 	@Autowired
 	public empcontroller(Daoservice ds)
